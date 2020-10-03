@@ -1,0 +1,446 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  
+}
+
+body{
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Libre Franklin', sans-serif;
+
+}
+
+a, a:hover{
+  text-decoration: none;
+}
+
+/***************************************
+            Main CSS starts
+****************************************/
+
+/* Header-Section */
+
+.header-section{
+  width: 100%;
+  background: url(../images/banner.png) no-repeat;
+  background-size: cover;
+}
+.menu-section{
+  width: 100%;
+}
+.menu-section .bg-light{
+  background: transparent !important;
+}
+.menu-section .navbar-light .navbar-nav .active> .nav-link{
+  background: url(../images/hover.png) center bottom no-repeat;
+  color:#511de5;
+  font-size: 14px;
+  font-weight: 600;
+  margin: 0px 15px;
+  background-size: contain;
+}
+.menu-section .navbar-light .navbar-nav .nav-link{
+  color: #1a1a1a;
+  font-size: 14px;
+  font-weight: 600;
+  margin: 0px 15px;
+}
+.menu-section .navbar-light .navbar-nav .nav-link:hover{
+  background: url(../images/hover.png) center bottom no-repeat;
+  color:#511de5;
+  background-size: contain;
+}
+.menu-section .right-login .nav-link{
+  color: #1a1a1a;
+  font-size: 14px;
+  font-weight: 600;
+  margin: 0px 15px;
+}
+.menu-section .right-login .nav-link:hover{
+  background: url(../images/hover.png) center bottom no-repeat;
+  color:#511de5;
+  background-size: contain;
+}
+.menu-section .right-login .btn-info{
+  font-size: 13px;
+  font-weight: 600;
+  padding: 6px 33px;
+  border-radius: 20px;
+  background: linear-gradient(to right, #511de5 45%, #0f86fa);
+  border: 1px solid linear-gradient(to right, #511de5 45%, #0f86fa);
+  transition: 1s;
+}
+.menu-section .right-login .btn-info:hover{
+  color: #511de5;
+  background: transparent;
+  border: 1px solid #511de5;
+}
+
+/* banner-Section */
+.banner-section{
+  width: 100%;
+  padding: 220px 0px;
+}
+.banner-section .banner-inner{
+  width: 100%;
+  padding: 0px 0px;
+}
+.banner-section .banner-inner h1{
+  font-size: 54px;
+  font-weight: 800;
+}
+.banner-section .banner-inner h1 span{
+  color: #511de5;
+}
+.banner-section .banner-inner .btn-info{
+  margin: 20px 0px;
+  color: #1a1a1a;
+  font-size: 13px;
+  font-weight: 600;
+  padding: 7px 33px;
+  border-radius: 20px;
+  background: #f2f2f2;
+  border: 1px solid #f2f2f2;
+  letter-spacing: 2px;
+}
+.banner-section .banner-inner .btn-info:hover{
+  
+  color: #f2f2f2;
+  background: #511de5;
+  border: 1px solid #511de5 ;
+}
+
+/* Highlight-Section */
+.highlight-section{
+  width: 100%;
+  position: relative;
+  padding: 40px 0px;
+  background: url(../images/highlight-area.png) no-repeat center;
+  background-size: cover;
+}
+.highlight-section .abs{
+  position: absolute;
+  top: -98px;
+  left: 0px;
+
+}
+.highlight-section .highlight-inner h2{
+  text-align: center;
+  color: white;
+  font-size: 26px;
+  font-weight: 800;
+  margin: 0px;
+  padding: 15px 0px;
+}
+
+/* Feature-Section */
+.feature-section{
+  width: 100%;
+  padding: 60px 0px 0px;
+}
+.feature-section .feature-inner{
+  width: 100%;
+  padding: 138px 120px;
+  background: url(../images/fe.png) no-repeat;
+  background-size: cover;
+}
+.feature-section .feature-inner h1{
+  font-weight: 900;
+  font-size: 50px;
+  margin-bottom: 25px;
+
+
+}
+.feature-section .feature-inner p{
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+
+.feature-section .feature-inner h4 strong{
+  font-size: 110px;
+  font-weight: 900;
+  background: linear-gradient(to right, #511de5 45%, #0f86fa);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.feature-section .feature-inner span{
+  font-size: 15px;
+  font-weight: 800;
+  margin-left: 10px;
+}
+.feature-section .client-inner{
+  width: 100%;
+  text-align: center;
+}
+.feature-section .client-inner img{
+  width: 83%;
+  text-align: center;
+  margin: 35px 0px;
+}
+/* Intro-quote */
+.intro-quote-section{
+  width: 100%;
+  background: url(../images/d.png) center top no-repeat;
+  background-size: cover;
+  padding: 150px 50px;
+
+}
+.intro-quote-section .quote-inner{
+  width: 100%;
+  background: url(../images/quote.png) center top no-repeat;
+  background-size: contain;
+  background: contain;
+  text-align: left;
+  margin-top: 55px;
+  padding: 145px 100px 160px 140px
+}
+.intro-quote-section .quote-inner p{
+  font-size: 15px;
+  color: white;
+  font-family: 'Maven Pro', sans-serif;
+}
+.intro-quote-section .quote-inner h4{
+  font-size: 14px;
+  color: white;
+  font-weight: 800;
+}
+.intro-quote-section .intro-inner{
+  width: 100%;
+  padding: 150px 20px;
+}
+.intro-quote-section .intro-inner h1{
+  font-weight: 800;
+}
+.intro-quote-section .intro-inner .btn-info{
+  margin: 20px 0px;
+  color: #1a1a1a;
+  font-size: 13px;
+  font-weight: 600;
+  padding: 7px 33px;
+  border-radius: 20px;
+  background: #f2f2f2;
+  border: 1px solid #f2f2f2;
+  letter-spacing: 2px;
+}
+.intro-quote-section .intro-inner .btn-info:hover{
+  color: #f2f2f2;
+  background: #511de5;
+  border: 1px solid #511de5 ;
+}
+/* EFFICIENCY */
+.efficiency-section{
+  width: 100%;
+  padding-bottom: 70px;
+}
+.efficiency-section .eff-text-inner{
+  width: 100%;
+  padding: 0px 0px 0px 60px;
+}
+.efficiency-section .eff-text-inner p{
+  font-family: 'Maven Pro', sans-serif;
+  font-weight: 600;
+  margin-top: 25px;
+  margin-bottom: 30px;
+}
+.efficiency-section .eff-text-inner h1{
+  font-weight: 900;
+  font-size: 50px;
+}
+.efficiency-section .eff-text-inner h6{
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+.efficiency-section .eff-text-inner img{
+  margin-right: 20px;
+}
+.efficiency-section .eff-text-inner .btn-info{
+  margin: 20px 0px;
+  color: #f2f2f2;
+  font-size: 13px;
+  font-weight: 500;
+  text-transform: uppercase;
+  padding: 10px 33px;
+  border-radius: 20px;
+  background: linear-gradient(to right, #511de5 45%, #0f86fa);
+  border: 1px solid linear-gradient(to right, #511de5 45%, #0f86fa);
+  transition: 1s;
+  letter-spacing: 3px;
+}
+.efficiency-section .eff-text-inner .btn-info:hover{
+  
+  color: #511de5;
+  background: transparent;
+  border: 1px solid #511de5;
+}
+.efficiency-section .img-inner{
+  width: 100%;
+}
+/* Design */
+.design-section{
+  width: 100%;
+  background: #fcfcfc;
+  padding: 80px 0px;
+  border-bottom: 1px solid #f2f2f2;
+}
+.design-section .text-section{
+  width: 100%;
+  text-align: center;
+}
+.design-section .text-section h1{
+  font-weight: 900;
+  margin-bottom: 30px;
+  font-size: 54px;
+}
+.design-section .text-section p{
+  font-family: 'Maven Pro', sans-serif;
+  font-weight: 600;
+}
+.design-section .design-inner{
+  text-align: center;
+  margin-top: 40px;
+}
+.design-section .design-inner img{
+  mix-blend-mode: darken;
+}
+.design-section .design-inner h4{
+  font-weight: 800;
+  margin-bottom: 15px;
+  margin-top: 20px;
+}
+.design-section .design-inner p{
+  font-weight: 600;
+  margin-bottom: 0px;
+}
+.design-section .bor{
+  border-left: 1px solid #f2f2f2;
+  border-right: 1px solid #f2f2f2;
+}
+/* INS-QUOTE */
+.ins-quote-section{
+  width: 100%;
+  padding: 90px 0px;
+}
+.ins-quote-section .text-inner{
+  width: 100%;
+  text-align: center;
+}
+.ins-quote-section .text-inner h1{
+  font-size: 65px;
+  font-weight: 900;
+}
+.ins-quote-section .img-inner{
+  width: 100%;
+  background: url(../images/insQuote2.png) center top no-repeat ;
+  background-size: cover;
+  text-align: center;
+  
+  margin-top: 50px;
+  opacity: 0.5;
+}
+.ins-quote-section .img-inner p{
+  width: 100%;
+  font-size: 18px;
+  font-weight: 800;
+  padding: 100px 0px 80px;
+  line-height: 28px;
+}
+.ins-quote-section .img-inner img{
+  margin-bottom: 15px;
+}
+.ins-quote-section .img-inner h4{
+  width: 100%;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 900;
+  margin-bottom: 10px;
+}
+.ins-quote-section .img-inner h6{
+  width: 100%;
+  font-size: 14px;
+  padding-bottom: 30px;
+}
+.ins-quote-section .img-inner:hover{
+  opacity: 1;
+  box-shadow: 0px 0px 35px -5px #ccc;
+}
+.ins-quote-section .img-inner:hover p{
+  background: linear-gradient(to right, #511de5 45%, #0f86fa);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+/* FOOTER_SECTION */
+.footer-section{
+  width: 100%;
+  background: url(../images/fbg.png) center bottom no-repeat;
+  background-size: contain;
+  padding: 0px 0px 100px;
+}
+.footer-section .head-inner{
+  width: 100%;
+  text-align: center;
+}
+.footer-section .head-inner h1{
+  font-size: 60px;
+  font-weight: 900;
+  margin-bottom: 120px;
+}
+.footer-section .text-inner .btn{
+  padding-left: 0px;
+  font-weight: 900;
+  font-size: 22px;
+  padding: 10px 0px;
+}
+.footer-section .text-inner .btn:focus{
+  box-shadow: none;
+}
+.footer-section .text-inner {
+  width: 100%;
+  padding: 0px 85px;
+}
+.footer-section .text-inner p{
+  font-size: 14px;
+  font-weight: 600;
+  margin: 15px 0px 40px;
+}
+.footer-section .text-inner .option{
+  border-bottom: 1px solid #ccc;
+}
+.footer-section .text-inner button:hover,.footer-section .text-inner button:focus{
+  color: #511de5;
+}
+.footer-inner{
+  background: #fcfcfc;
+  box-shadow: 0px 0px 35px -5px #ccc;
+  padding: 90px 0px;
+}
+.footer-section .ltext-inner{
+  margin-left: 30px;
+}
+.footer-section .ltext-inner ul{
+  list-style: none;
+  lis
+}
+.footer-section .ltext-inner ul li {
+  color: white;
+  display: inline-block;
+}
+.footer-section .ltext-inner ul li a{
+  color: white;
+  font-weight: 700;
+  margin-right: 20px;
+}
+.footer-section .ctext-inner h4{
+  color: white;
+  font-size: 18px;
+  margin-left: 65px;
+}
+.footer-text{
+  margin-top: 100px;
+}
